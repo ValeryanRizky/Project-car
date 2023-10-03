@@ -7,7 +7,7 @@ const Cart = () => {
       <div className="text-3xl p-10 font-bold w-full border-b border-black">
         <p>Your Cart</p>
       </div>
-      <div className="p-4">
+      <div className="p-6">
         <ComponentCart
           img="https://apollo-singapore.akamaized.net/v1/files/6v97l1pj2seh3-ID/image;s=780x0;q=60"
           title="BMW M4 Competition (2023)"

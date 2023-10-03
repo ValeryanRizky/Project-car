@@ -3,6 +3,7 @@ import Iklan from "../Component Home/Iklan";
 import Category from "../Component Home/Category/Category";
 import Card from "../Component Home/CardHome/CardHome";
 import HotSell from "../Component Home/HotSell";
+import Footer from "../Component Home/footer";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       </div>
       <div>
         <HotSell/>
+        <Footer/>
       </div>
     </div>
   );

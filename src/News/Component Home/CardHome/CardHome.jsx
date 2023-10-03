@@ -1,6 +1,7 @@
 import React from "react";
 import ComponentCard from "./component-card";
 import { Link } from "react-router-dom";
+import Footer from "../footer";
 
 const Card = () => {
   return (

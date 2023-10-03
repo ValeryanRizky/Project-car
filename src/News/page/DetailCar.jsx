@@ -2,6 +2,7 @@ import React from "react";
 import { AiOutlineHeart } from "react-icons/ai";
 import { AiOutlineShareAlt } from "react-icons/ai";
 import { AiOutlineShoppingCart } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 const DetailCar = () => {
   return (
@@ -40,10 +41,12 @@ const DetailCar = () => {
             </div>
           </div>
           <div className="mt-6 flex w-full">
+            <Link to={'/Cart'}>
             <button className="flex relative justify-center p-2 mt-5 rounded-full bg-black text-white h-12 w-[200px] font-semibold">
               Add To Cart
               <AiOutlineShoppingCart size={25} />
             </button>
+            </Link>
           </div>
         </div>
       </div>

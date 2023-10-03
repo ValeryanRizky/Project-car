@@ -12,6 +12,7 @@ import Ferrari from "./News/Component Home/CardProduk/CardFerrari";
 import Toyota from "./News/Component Home/CardProduk/CardToyota";
 import Mazda from "./News/Component Home/CardProduk/CardMazda";
 import Cart from "./News/Component Cart/Cart";
+import Footer from "./News/Component Home/footer";
 
 const router = createBrowserRouter([
   {
@@ -53,6 +54,10 @@ const router = createBrowserRouter([
   {
     path: "/Cart",
     element: <Cart/>
+  },
+  {
+    path: "/footer",
+    element: <Footer/>
   }
 ]);
 
